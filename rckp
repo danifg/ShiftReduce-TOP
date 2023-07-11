@@ -1,0 +1,9 @@
+rm DATA/dep-parsing/models/$1/checkpoint4*
+rm DATA/dep-parsing/models/$1/checkpoint5*
+rm DATA/dep-parsing/models/$1/checkpoint6*
+rm DATA/dep-parsing/models/$1/checkpoint7*
+rm DATA/dep-parsing/models/$1/checkpoint8*
+rm DATA/dep-parsing/models/$1/checkpoint_best.*
+rm DATA/dep-parsing/models/$1/checkpoint_second*
+rm DATA/dep-parsing/models/$1/checkpoint_third*
+rm DATA/dep-parsing/models/$1/checkpoint_last*
