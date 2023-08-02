@@ -5,7 +5,7 @@ This repository includes the code of the in-order shift-reduce approach for task
 ## Requirements
 This implementation was tested on Python 3.6.9, PyTorch 1.1.0 and CUDA 9.0.176. Please run the following command to proceed with the installation:
 ``` 
-    cd Disco-Seq2seq-Parser
+    cd ShiftReduce-TOP
     pip install -r requirements.txt
 ```
 
@@ -21,7 +21,7 @@ To train a model for the TOP dataset, just execute the following script:
 
 To test the trained model on the test split, please run the following command:
 ``` 
-    ./scripts/stack-transformer/con_test-test.sh tconfig/test_roberta_large.sh DATA/dep-parsing/models/TOP_RoBERTa-large_stnp6x6-seed44/checkpoint_top3-average.pt DATA/dep-parsing/models/TOP_RoBERTa-large_stnp6x6-seed44/epoch-tests-test/dec-checkpoint-top3-average
+    ./scripts/stack-transformer/con_test-test.sh config/test_roberta_large.sh DATA/dep-parsing/models/TOP_RoBERTa-large_stnp6x6-seed44/checkpoint_top3-average.pt DATA/dep-parsing/models/TOP_RoBERTa-large_stnp6x6-seed44/epoch-tests-test/dec-checkpoint-top3-average
 ``` 
 
 

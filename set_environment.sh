@@ -1,2 +1,2 @@
-export PYTHONPATH=$PYTHONPATH:/<path>/InOrder-TOP-Parser/
-export PYTHONPATH=$PYTHONPATH:/<path>/InOrder-TOP-Parser/fairseq-stack-transformer/
+export PYTHONPATH=$PYTHONPATH:/<path>/ShiftReduce-TOP/
+export PYTHONPATH=$PYTHONPATH:/<path>/ShiftReduce-TOP/fairseq-stack-transformer/

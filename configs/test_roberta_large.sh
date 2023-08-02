@@ -18,7 +18,7 @@ PTB_ORACLE=$data_root/corpora/
 
 # Dependency-parsing oracle
 # NOTE: This is precomputed
-ORACLE_TAG=vinoPTB
+ORACLE_TAG=TOP
 ORACLE_FOLDER=$data_root/oracles/${ORACLE_TAG}/
 
 # PREPROCESSING
@@ -49,7 +49,7 @@ TRAIN_TAG=stnp6x6
 base_model=stack_transformer_6x6_nopos
 # number of random seeds trained at once
 #LO MODIFICAMOS POR EL MOMENTO
-NUM_SEEDS=2
+NUM_SEEDS=1
 # CCC configuration in scripts/stack-transformer/jbsub_experiment.sh
 TRAIN_GPU_TYPE=v100
 TRAIN_QUEUE=ppc_24h
@@ -85,7 +85,7 @@ FAIRSEQ_TRAIN_ARGS="
 # See fairseq/fairseq/options.py:add_optimization_args,add_checkpoint_args
 # --path flag specified in the dcc/test.sh script
 # --results-path is dirname from --path plus $TEST_TAG
-beam_size=1
+beam_size=10
 TEST_TAG="beam${beam_size}"
 CHECKPOINT=checkpoint_best.pt
 # CCC configuration in scripts/stack-transformer/jbsub_experiment.sh
@@ -93,7 +93,7 @@ TEST_GPU_TYPE=v100
 TEST_QUEUE=x86_6h
 FAIRSEQ_GENERATE_ARGS="
     $FEATURES_FOLDER 
-    --gen-subset valid
+    --gen-subset test
      --tokenize-by-whitespace
     --machine-type $TASK_TAG
     --beam ${beam_size}
