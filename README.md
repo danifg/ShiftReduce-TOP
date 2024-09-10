@@ -1,5 +1,5 @@
 # Shift-Reduce Task-Oriented Semantic Parsing with Stack-Transformers
-This repository includes the code of the in-order shift-reduce approach for task-oriented semantic parsing described in paper [Shift-Reduce Task-Oriented Semantic Parsing with Stack-Transformers](https://arxiv.org/pdf/2210.11984.pdf). This implementation is based on the system by [Fernandez Astudillo et al. (2020)](https://www.aclweb.org/anthology/2020.findings-emnlp.89) and reuses part of its [code](https://github.com/IBM/transition-amr-parser/tree/stack-transformer).
+This repository includes the code of the in-order shift-reduce approach for task-oriented semantic parsing described in paper [Shift-Reduce Task-Oriented Semantic Parsing with Stack-Transformers](https://doi.org/10.1007/s12559-024-10339-4). This implementation is based on the system by [Fernandez Astudillo et al. (2020)](https://www.aclweb.org/anthology/2020.findings-emnlp.89) and reuses part of its [code](https://github.com/IBM/transition-amr-parser/tree/stack-transformer).
 
 
 ## Requirements
@@ -27,13 +27,13 @@ To test the trained model on the test split, please run the following command:
 
 ## Citation
 ```
-@misc{fernándezgonzález2022shiftreduce,
+@article{fernándezgonzález2024topshiftreduce,
       title={Shift-Reduce Task-Oriented Semantic Parsing with Stack-Transformers}, 
       author={Daniel Fernández-González},
-      year={2022},
-      eprint={2210.11984},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+      journal = {Cognitive Computation},
+      year={2024},
+      issn = {1866-9964},
+      doi = {https://doi.org/10.1007/s12559-024-10339-4}
 }
 ```
 
