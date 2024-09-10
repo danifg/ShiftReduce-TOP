@@ -27,7 +27,7 @@ To test the trained model on the test split, please run the following command:
 
 ## Citation
 ```
-@article{fernándezgonzález2024topshiftreduce,
+@article{fernandez2024topshiftreduce,
       title={Shift-Reduce Task-Oriented Semantic Parsing with Stack-Transformers}, 
       author={Daniel Fernández-González},
       journal = {Cognitive Computation},
