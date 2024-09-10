@@ -39,4 +39,4 @@ To test the trained model on the test split, please run the following command:
 
 ## Acknowledgments
 
-We have received funding from grant SCANNER-UDC (PID2020-113230RB-C21) funded by MCIN/AEI/10.13039/501100011033, Xunta de Galicia (ED431C 2020/11), and Centro de Investigación de Galicia "CITIC", funded by Xunta de Galicia and the European Union (ERDF - Galicia 2014-2020 Program), by grant ED431G 2019/01.                                                                                                                                   
+We acknowledge the European Research Council (ERC), which has funded this research under the European Union's Horizon 2020 research and innovation programme (FASTPARSE, grant agreement No 714150), ERDF/MICINN-AEI (PID2020-113230RB-C21, PID2020-113230RB-C22 and PID2023-147129OB-C22), Xunta de Galicia (ED431C 2020/11), and Centro de Investigación de Galicia "CITIC", funded by Xunta de Galicia and the European Union (ERDF - Galicia 2014-2020 Program), by grant ED431G 2019/01.                                                                                                                                  
